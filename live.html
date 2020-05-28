@@ -1,0 +1,58 @@
+<!doctype html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <title>Website Sample</title>
+   <link href="styles/main.css" rel="stylesheet" type="text/css">
+   <script type="text/javascript" src="script/assignment.js"></script>
+</head>
+
+<body>
+   <div class="header"> 
+    <h1>The Web Sample School </h1>
+   </div>
+
+   <ul id="nav">
+    <li><a href="lessons.html">Lessons</a></li>
+    <li><a href="assignment.html">Assignment</a></li>
+    <li><a href="live.html">Video Stream</a></li>
+   </ul>
+
+<div class="area">
+ <div id="live1">
+  <h1>Ongoing Classes</h1>
+   <ul id="live-nav1">
+     <li> <h2>HTML</h2><br><a href="live.html#html-video"><p>Go to letures&rarr;</p></a></li>
+     <li> <h2>CSS</h2> <br><a href="live.html#html-video"><p>Go to letures&rarr;</p></a></li>
+   </ul>
+</div>
+
+ <div id="live2">
+   <h1>Scheduled live classes</h1>
+    <ul id="live-nav2">
+       <li> <h2>Javascript</h2><br><div id="v1"></div> </li>
+       <li> <h2>Jquery</h2> <br><div id="v2"></div>  </li>
+    </ul>
+ </div>
+ <a href="index.html" ><div id="logout-live"><b>Logout</b></div></a>
+</div>
+
+<div id="html-video">
+   <h1>Complete course for HTML</h1>
+      <div id="main_menu"> <a href="lessons.html"><p>Main Menu</p></a></div>
+        <div id="vid">
+         <video class="per_vid" width="60%" height="400px" controls  poster="video/htmlPic.png">
+          <source src="video/htmlVideoRecord.mp4" type="video/mp4">
+             <p>Your browser doesn't supports HTML5 video.</p>
+        </video>
+
+<iframe class="per_vid" width="60%" height="400px" src="https://www.youtube.com/embed/UB1O30fR-EE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<iframe class="per_vid" width="60%"  height="400px" src="https://www.youtube.com/embed/uyaV_EWWRmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+</div>
+
+
+ </body>
+</html>

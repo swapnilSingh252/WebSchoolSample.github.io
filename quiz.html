@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web sample</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <script src="script/quiz.js"></script>
+</head>
+<body>
+   <div class="header"> 
+<h1>The Web Sample School </h1>
+</div>
+<div id="move">
+  <div id="quiz-head">Take The Quiz</div>
+    <div id="main">
+           <form name="form" method="GET" action="lessons.html">
+            <h2>Question1: </h2>
+              <p> The tag used for paragraph in HTML ?</br>
+                 <input type="radio" name="para" value="a">h1</br>
+                 <input type="radio" name="para" value="b">p</br>
+                 <input type="radio" name="para" value="c">a</br>
+                 <input type="radio" name="para" value="d">h2</br>
+              </p>
+            <h2>Question2:  </h2>
+              <p>The tag used for anchor in HTML ?</br>
+               <input type="radio" name="link" value="a">h1</br>
+               <input type="radio" name="link" value="b">p</br>
+               <input type="radio" name="link" value="c">a</br>
+               <input type="radio" name="link" value="d">h2</br>
+            </p>
+            <h2>Question3:  </h2>
+            <p> The tag for used title  in HTML ?</br>
+               <input type="radio" name="title" value="a">title</br>
+               <input type="radio" name="title" value="b">p</br>
+               <input type="radio" name="title" value="c">head</br>
+               <input type="radio" name="title" value="d">div</br>
+            </p>
+            <input id="quiz-btn" type="submit" value="Finish" onclick="get_answer()">
+
+       </form>
+       
+</div>
+</div>
+</body>
+</html>
